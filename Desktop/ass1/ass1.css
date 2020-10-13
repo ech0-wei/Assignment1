@@ -1,0 +1,101 @@
+/*For recommend fix windows and the recommend picture size*/
+#divfix{
+    width:200px;
+    height:200px;
+    border:2px #F08080 solid;
+    position:fixed;
+    bottom:15%;
+    right:15%;
+    background:#F08080;
+}
+.picrecom{
+ width:199px;
+ height:160px;
+}
+/*For all link style*/
+a:link {color:#F08080;}      
+a:visited {color:white;}  
+a:hover {color:#FF00FF;}  
+a:active {color:#0000FF;}
+/*For the div under navigationbar*/
+.box {
+        margin:0px;
+        display: flex;
+       
+	}
+.box div {
+        width: 100%;
+        height: 70px;
+    }
+.box1 {
+        flex:8;
+		background: white;
+    }
+.box2 {
+	flex:1;
+    background:white ;
+    
+	}
+
+.divcolor{
+	background:#F08080;
+	width:100%;
+	height:auto;
+	}
+
+.sectionborder{
+    border-width:2px;
+    border-style:solid;
+    border-color:#F08080;
+}
+
+/*For the bottom of website the flex display*/
+.botbox{
+width:100%;
+height:200px;
+display:flex;
+background:#F08080;
+}
+.botbox div{
+width:100%;
+height:100px;
+
+}
+.bot1{
+flex:1;
+}
+.bot2{
+flex:7;
+}
+.bot3{
+flex:3;
+}
+.botimg{
+width:120px;
+height 120px; 
+}
+.botp{
+font-size:70px;
+color:white;
+text-align:center;
+font-family:"Monotype corsiva";
+overflow:auto;
+}
+.botp1{
+text-align:center;
+font-size:30px;
+color:white;
+}
+/*for the product description word style*/
+.descriptionword{
+text-align:left;
+color:#F08080;
+font-size:15px;
+font-family:"Arial black";
+}
+/*For the unorder list word style*/
+.ulword li{
+ color:#F08080;
+font-size:10px;
+font-family:"Arial black";
+ }
